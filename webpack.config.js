@@ -24,7 +24,8 @@ module.exports = {
   resolve: {
     modules: [
       __dirname,
-      'node_modules'
+      'node_modules',
+      './app/components'
     ],
     //root: __dirname,
     alias: {

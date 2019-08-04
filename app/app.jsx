@@ -2,6 +2,8 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
+var MainApp = require('MainApp');
+
 //Load foundation
 $(document).foundation();
 
@@ -11,6 +13,6 @@ require('style-loader!css-loader!sass-loader!applicationStyles');
 //Common react-DOM methxod
 ReactDOM.render(
   //Render the greeter tag
-  <p>Boilerplate 3 Project</p>,
+  <MainApp/>,
   document.getElementById('app')
 );
